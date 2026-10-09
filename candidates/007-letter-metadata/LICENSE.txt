@@ -1,0 +1,23 @@
+Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+
+Applies to the material in this folder, i.e. data/letters/ (the sample letters),
+data/reference.json (the reference metadata), the extracted values in data/lookups.json and
+prompts/ (prompts, encoding rules, few-shot examples).
+
+Source of the letters (transcriptions) and of the reference metadata:
+Höflechner, Walter; Scholger, Martina; Wagner, Alexandra; Strutz, Sabrina; Steiner, Elisabeth
+(eds.) 2025: Joseph von Hammer-Purgstall. Korrespondenz. Graz.
+https://gams.uni-graz.at/hpe, hdl.handle.net/11471/559.20 (GAMS 559.20).
+
+Full legal text: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+Third-party material in data/lookups.json:
+- GND records (candidates under "gndCandidates", GND numbers): Deutsche Nationalbibliothek,
+  CC0 1.0, retrieved through lobid-gnd (https://lobid.org/gnd).
+  https://creativecommons.org/publicdomain/zero/1.0/
+- GeoNames records (candidates under "geonamesCandidates", GeoNames IDs): GeoNames,
+  https://www.geonames.org, CC BY 4.0.
+  https://creativecommons.org/licenses/by/4.0/
+
+The code in this folder (helpers.py and the notebooks) is under Apache-2.0, the licence of
+the repository.

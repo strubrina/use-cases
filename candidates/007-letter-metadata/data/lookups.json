@@ -1,0 +1,954 @@
+[
+  {
+    "letter": "letter1067",
+    "stage1": {
+      "place": {
+        "value": "Trieste | IT",
+        "cert": "high"
+      },
+      "date": {
+        "value": "1810-02-22",
+        "cert": "high"
+      },
+      "writer": {
+        "forename": {
+          "value": "unk",
+          "cert": "high"
+        },
+        "lastname": {
+          "value": "unk",
+          "cert": "high"
+        }
+      },
+      "language": {
+        "value": "fr",
+        "cert": "high"
+      }
+    },
+    "writer": {
+      "status": "skipped"
+    },
+    "place": {
+      "status": "ambiguous",
+      "query": "Trieste",
+      "candidates": [
+        {
+          "geonamesId": "3165185",
+          "name": "Trieste",
+          "countryCode": "IT",
+          "featureClass": "P",
+          "featureCode": "PPLA",
+          "population": 204338,
+          "adminName1": "Friuli Venezia Giulia"
+        },
+        {
+          "geonamesId": "8957424",
+          "name": "Trieste",
+          "countryCode": "IT",
+          "featureClass": "P",
+          "featureCode": "PPL",
+          "population": 85,
+          "adminName1": "Veneto"
+        },
+        {
+          "geonamesId": "8971307",
+          "name": "Trieste",
+          "countryCode": "IT",
+          "featureClass": "P",
+          "featureCode": "PPL",
+          "population": 27,
+          "adminName1": "Veneto"
+        }
+      ]
+    }
+  },
+  {
+    "letter": "letter1385",
+    "stage1": {
+      "place": {
+        "value": "Munich | DE",
+        "cert": "high"
+      },
+      "date": {
+        "value": "1812-12-07",
+        "cert": "high"
+      },
+      "writer": {
+        "forename": {
+          "value": "unk",
+          "cert": "high"
+        },
+        "lastname": {
+          "value": "Frank",
+          "cert": "high"
+        },
+        "profession": {
+          "value": "Orientalist",
+          "cert": "med"
+        }
+      },
+      "language": {
+        "value": "de",
+        "cert": "high"
+      }
+    },
+    "writer": {
+      "status": "ambiguous",
+      "query": "Frank, unk",
+      "candidates": [
+        {
+          "gnd": "116704128",
+          "preferredName": "Frank, Othmar",
+          "birthYear": 1770,
+          "deathYear": 1840,
+          "bio": "Professor; Dt. Orientalist, Hebraist u. Sanskritist",
+          "professions": [
+            "Indologe",
+            "Hebraist",
+            "Orientalist"
+          ]
+        },
+        {
+          "gnd": "119212269",
+          "preferredName": "Frank, Ignác",
+          "birthYear": 1788,
+          "deathYear": 1850,
+          "professions": [
+            "Jurist"
+          ]
+        },
+        {
+          "gnd": "118692682",
+          "preferredName": "Frank, Joseph",
+          "birthYear": 1771,
+          "deathYear": 1842,
+          "bio": "Lebte überwiegend in Italien und im heutigen Litauen",
+          "professions": [
+            "Arzt",
+            "Hochschullehrer",
+            "Pathologe"
+          ]
+        },
+        {
+          "gnd": "11753594X",
+          "preferredName": "Frank, Louis",
+          "birthYear": 1761,
+          "deathYear": 1825,
+          "bio": "\"Médecin et voyageur. - Fut médecin de l'hôpital militaire d'Alexandrie. - Fut premier médecin de Marie-Louise\"",
+          "professions": [
+            "Arzt",
+            "Reisender"
+          ]
+        },
+        {
+          "gnd": "136004873",
+          "preferredName": "Frank, Christian",
+          "birthYear": 1787,
+          "deathYear": 1851,
+          "bio": "liberaler Politiker in Hessen; Gründer des Regginghäser Hammers und der Spar- und Darlehenskasse in Vöhl",
+          "professions": [
+            "Evangelischer Theologe",
+            "Dekan <Kirche>",
+            "Politiker",
+            "Abgeordneter",
+            "Unternehmer"
+          ]
+        },
+        {
+          "gnd": "129719242",
+          "preferredName": "Frank, Christoph",
+          "birthYear": 1787,
+          "deathYear": 1822,
+          "bio": "Dt.-böhm. Porträtmaler und Porträtminiaturist",
+          "professions": [
+            "Maler"
+          ]
+        },
+        {
+          "gnd": "118692674",
+          "preferredName": "Frank, Johann Peter",
+          "birthYear": 1745,
+          "deathYear": 1821,
+          "bio": "Deutscher Arzt, Professor in Pavia",
+          "professions": [
+            "Arzt",
+            "Hochschullehrer"
+          ]
+        },
+        {
+          "gnd": "120436051",
+          "preferredName": "Frank, Joseph Salomon",
+          "birthYear": 1768,
+          "deathYear": 1840,
+          "professions": [
+            "Arzt",
+            "Numismatiker"
+          ]
+        },
+        {
+          "gnd": "133535746",
+          "preferredName": "Frank, Michael Sigmund",
+          "birthYear": 1770,
+          "deathYear": 1847,
+          "professions": [
+            "Künstler",
+            "Porzellanmaler",
+            "Glasmaler"
+          ]
+        },
+        {
+          "gnd": "1274044294",
+          "preferredName": "Seewies, Sebastian Frank von",
+          "birthYear": 1796,
+          "deathYear": 1850,
+          "professions": [
+            "Offizier"
+          ]
+        },
+        {
+          "gnd": "102480494",
+          "preferredName": "Frank, Ludwig Friedrich",
+          "birthYear": 1766,
+          "deathYear": 1836,
+          "bio": "Hofchirurg u. Leibchirurg, seit 1827 med. Rat",
+          "professions": [
+            "Arzt",
+            "Chirurg"
+          ]
+        },
+        {
+          "gnd": "1156277922",
+          "preferredName": "Frank, Ludwig Friedrich",
+          "birthYear": 1796,
+          "deathYear": 1860,
+          "professions": [
+            "Arzt"
+          ]
+        },
+        {
+          "gnd": "116702796",
+          "preferredName": "Frank, Johann Heinrich",
+          "birthYear": 1772,
+          "deathYear": 1843,
+          "bio": "Naturalienhändler",
+          "professions": [
+            "Händler"
+          ]
+        },
+        {
+          "gnd": "1019478039",
+          "preferredName": "Frank von Fürstenwerth, Gustav",
+          "birthYear": 1794,
+          "deathYear": 1867,
+          "bio": "Wirklicher Geheimer Rat",
+          "professions": [
+            "Freiherr",
+            "Beamter",
+            "Geheimer Rat"
+          ]
+        }
+      ]
+    },
+    "place": {
+      "status": "unique",
+      "geonames": "2867714"
+    }
+  },
+  {
+    "letter": "letter1876",
+    "stage1": {
+      "place": {
+        "value": "Halle | DE",
+        "cert": "high"
+      },
+      "date": {
+        "value": "1817-03-24",
+        "cert": "high"
+      },
+      "writer": {
+        "forename": {
+          "value": "Samuel Friedrich Günther",
+          "cert": "med"
+        },
+        "lastname": {
+          "value": "Wahl",
+          "cert": "high"
+        },
+        "profession": {
+          "value": "Orientalist",
+          "cert": "med"
+        }
+      },
+      "language": {
+        "value": "de",
+        "cert": "high"
+      }
+    },
+    "writer": {
+      "status": "unique",
+      "gnd": "117114308"
+    },
+    "place": {
+      "status": "ambiguous",
+      "query": "Halle",
+      "candidates": [
+        {
+          "geonamesId": "2911522",
+          "name": "Halle",
+          "countryCode": "DE",
+          "featureClass": "P",
+          "featureCode": "PPL",
+          "population": 237865,
+          "adminName1": "Saxony-Anhalt"
+        },
+        {
+          "geonamesId": "2911520",
+          "name": "Halle",
+          "countryCode": "DE",
+          "featureClass": "P",
+          "featureCode": "PPL",
+          "population": 21448,
+          "adminName1": "North Rhine-Westphalia"
+        },
+        {
+          "geonamesId": "2911521",
+          "name": "Halle",
+          "countryCode": "DE",
+          "featureClass": "P",
+          "featureCode": "PPLA4",
+          "population": 1779,
+          "adminName1": "Lower Saxony"
+        },
+        {
+          "geonamesId": "2911519",
+          "name": "Halle",
+          "countryCode": "DE",
+          "featureClass": "P",
+          "featureCode": "PPL",
+          "population": 620,
+          "adminName1": "Lower Saxony"
+        }
+      ]
+    }
+  },
+  {
+    "letter": "letter5093",
+    "stage1": {
+      "place": {
+        "value": "London | GB",
+        "cert": "high"
+      },
+      "date": {
+        "value": "1834-10-28",
+        "cert": "high"
+      },
+      "writer": {
+        "forename": {
+          "value": "James",
+          "cert": "high"
+        },
+        "lastname": {
+          "value": "Mitchell",
+          "cert": "high"
+        }
+      },
+      "language": {
+        "value": "en",
+        "cert": "high"
+      }
+    },
+    "writer": {
+      "status": "ambiguous",
+      "query": "Mitchell, James",
+      "candidates": [
+        {
+          "gnd": "1152204424",
+          "preferredName": "King, Mitchell",
+          "birthYear": 1815,
+          "deathYear": 1901,
+          "bio": "Pflanzer und Arzt in den Carolinas. Studienfreund und Corpsbruder von Otto von Bismarck.",
+          "professions": [
+            "Arzt"
+          ]
+        },
+        {
+          "gnd": "100529305",
+          "preferredName": "Mitchell, George",
+          "birthYear": 1794,
+          "deathYear": 1880,
+          "professions": [
+            "Autor"
+          ]
+        },
+        {
+          "gnd": "13320491X",
+          "preferredName": "Mitchell, John M.",
+          "birthYear": 1789,
+          "deathYear": 1865,
+          "professions": [
+            "Kaufmann"
+          ]
+        },
+        {
+          "gnd": "1032097736",
+          "preferredName": "Mitchell, Martha Reed",
+          "birthYear": 1818,
+          "deathYear": 1902,
+          "professions": [
+            "Kunstsammlerin"
+          ]
+        },
+        {
+          "gnd": "119439662",
+          "preferredName": "Mitchell, Thomas L.",
+          "birthYear": 1792,
+          "deathYear": 1855,
+          "bio": "schott. Forschungsreisender",
+          "professions": [
+            "Vermessungsingenieur",
+            "Entdecker"
+          ]
+        },
+        {
+          "gnd": "138336539",
+          "preferredName": "Mitchell, Samuel Augustus",
+          "birthYear": 1792,
+          "deathYear": 1868,
+          "professions": [
+            "Geograf"
+          ]
+        },
+        {
+          "gnd": "1157759084",
+          "preferredName": "Mitchell, David William",
+          "birthYear": 1813,
+          "deathYear": 1859,
+          "bio": "F.L.S.; secretary to the Zoological Society of London 1847-1859",
+          "professions": [
+            "Zoologe",
+            "Illustrator"
+          ]
+        },
+        {
+          "gnd": "117579122",
+          "preferredName": "Mitchell, John Murray",
+          "birthYear": 1814,
+          "deathYear": 1904,
+          "bio": "war als Missionar in Indien tätig; Brit. Theologe",
+          "professions": [
+            "Theologe"
+          ]
+        },
+        {
+          "gnd": "1027289363",
+          "preferredName": "Mitchell, Thomas Duche",
+          "birthYear": 1791,
+          "deathYear": 1865
+        },
+        {
+          "gnd": "170510018",
+          "preferredName": "Mitchell, Stephen M.",
+          "birthYear": 1743,
+          "deathYear": 1835,
+          "professions": [
+            "Jurist",
+            "Politiker"
+          ]
+        },
+        {
+          "gnd": "1247060128",
+          "preferredName": "Gillespie, William Mitchell",
+          "birthYear": 1816,
+          "deathYear": 1868,
+          "professions": [
+            "Ingenieur",
+            "Hochschullehrer",
+            "Autor"
+          ]
+        },
+        {
+          "gnd": "116126582",
+          "preferredName": "Kemble, John Mitchell",
+          "birthYear": 1807,
+          "deathYear": 1857,
+          "bio": "A lay member of the Church of England; Engl. Philologe und Historiker",
+          "professions": [
+            "Germanist",
+            "Philologe"
+          ]
+        },
+        {
+          "gnd": "11705271X",
+          "preferredName": "Mitchell, John",
+          "birthYear": 1806,
+          "deathYear": 1874,
+          "professions": [
+            "Buchhändler"
+          ]
+        }
+      ]
+    },
+    "place": {
+      "status": "unique",
+      "geonames": "2643743"
+    }
+  },
+  {
+    "letter": "letter6357",
+    "stage1": {
+      "place": {
+        "value": "unk",
+        "cert": "high"
+      },
+      "date": {
+        "value": "unk",
+        "cert": "high"
+      },
+      "writer": {
+        "forename": {
+          "value": "unk",
+          "cert": "high"
+        },
+        "lastname": {
+          "value": "Frankl",
+          "cert": "high"
+        },
+        "profession": {
+          "value": "Schriftsteller",
+          "cert": "med"
+        }
+      },
+      "language": {
+        "value": "de",
+        "cert": "high"
+      }
+    },
+    "writer": {
+      "status": "ambiguous",
+      "query": "Frankl, unk",
+      "candidates": [
+        {
+          "gnd": "12233793X",
+          "preferredName": "Frankl, Volfgango",
+          "birthYear": 1907,
+          "deathYear": 1994,
+          "bio": "Architekt",
+          "professions": [
+            "Architekt"
+          ]
+        },
+        {
+          "gnd": "116718080",
+          "preferredName": "Frankl, Josef",
+          "birthYear": 1803,
+          "deathYear": 1877,
+          "bio": "Badearzt in Marienbad",
+          "professions": [
+            "Arzt"
+          ]
+        },
+        {
+          "gnd": "1174318600",
+          "preferredName": "Frankl, Gerti",
+          "birthYear": 1902,
+          "deathYear": 1989,
+          "professions": [
+            "Schriftstellerin",
+            "Übersetzerin",
+            "Journalistin",
+            "Fotografin"
+          ]
+        },
+        {
+          "gnd": "141743417",
+          "preferredName": "Frankl, Liselotte",
+          "birthYear": 1910,
+          "deathYear": 1988,
+          "professions": [
+            "Psychologin",
+            "Psychiaterin",
+            "Psychoanalytikerin"
+          ]
+        },
+        {
+          "gnd": "1062120051",
+          "preferredName": "Frankl-Schreiber",
+          "birthYear": null,
+          "deathYear": null,
+          "professions": [
+            "Schauspielerin"
+          ]
+        },
+        {
+          "gnd": "132512378",
+          "preferredName": "Frankl, Oskar",
+          "birthYear": 1873,
+          "deathYear": 1938,
+          "bio": "Prof. für Geburtshilfe u. Gynäkologie an der Universität Wien",
+          "professions": [
+            "Arzt",
+            "Gynäkologe",
+            "Hochschullehrer"
+          ]
+        },
+        {
+          "gnd": "122817923",
+          "preferredName": "Fränkl, Jiří",
+          "birthYear": 1921,
+          "deathYear": 1994,
+          "bio": "Überlebender von Theresienstadt und Auschwitz; Tschech. Pädagoge"
+        },
+        {
+          "gnd": "1153738406",
+          "preferredName": "Frankl, Egon",
+          "birthYear": 1878,
+          "deathYear": 1939,
+          "professions": [
+            "Generalkonsul"
+          ]
+        },
+        {
+          "gnd": "118692836",
+          "preferredName": "Frankl, Gerhart",
+          "birthYear": 1901,
+          "deathYear": 1965,
+          "bio": "Maler; Ölmaler ; Aquarellmaler ; Graphiker",
+          "professions": [
+            "Maler"
+          ]
+        },
+        {
+          "gnd": "127226958",
+          "preferredName": "Frankl, Oskar",
+          "birthYear": 1881,
+          "deathYear": 1955,
+          "bio": "Gründer und Direktor (1916-1938) der Urania, Prag",
+          "professions": [
+            "Pädagoge",
+            "Gymnasiallehrer",
+            "Germanist",
+            "Schriftsteller",
+            "Journalist"
+          ]
+        },
+        {
+          "gnd": "1028816790",
+          "preferredName": "Frankl, Friedrich",
+          "birthYear": null,
+          "deathYear": null,
+          "bio": "Unterrichtete Deutsch, Latein, Griechisch, philos. Propädeutik, Geschichte und Geographie",
+          "professions": [
+            "Gymnasiallehrer",
+            "Pädagoge"
+          ]
+        },
+        {
+          "gnd": "130354910",
+          "preferredName": "Frankl, Markus",
+          "birthYear": 1965,
+          "deathYear": null,
+          "bio": "Wirt"
+        },
+        {
+          "gnd": "117536199",
+          "preferredName": "Frankl, Otto",
+          "birthYear": 1855,
+          "deathYear": 1923,
+          "professions": [
+            "Jurist"
+          ]
+        },
+        {
+          "gnd": "124524753",
+          "preferredName": "Frankl, Stanisław",
+          "birthYear": 1903,
+          "deathYear": 1944,
+          "bio": "Poln. Theologe, Rektor des Priesterseminars Lemberg; Hochschullehrer in Lemberg",
+          "professions": [
+            "Theologe",
+            "Hochschullehrer"
+          ]
+        },
+        {
+          "gnd": "1018069895",
+          "preferredName": "Frankl, Joe",
+          "birthYear": 1933,
+          "deathYear": null,
+          "bio": "Israelischer Zahnarzt, aufgewachsen in Trnava (Slowakei), Holocaust-Überlebender",
+          "professions": [
+            "Zahnarzt"
+          ]
+        },
+        {
+          "gnd": "1169363822",
+          "preferredName": "Frankl, Albert",
+          "birthYear": 1876,
+          "deathYear": 1942,
+          "bio": "Kinobesitzer"
+        },
+        {
+          "gnd": "1327605783",
+          "preferredName": "Frankl, Jan",
+          "birthYear": 1987,
+          "deathYear": null,
+          "professions": [
+            "Regisseur",
+            "Filmproduzent",
+            "Drehbuchautor",
+            "Schauspieler",
+            "Fotograf"
+          ]
+        },
+        {
+          "gnd": "12531020X",
+          "preferredName": "Fränkl, Erdhart",
+          "birthYear": 1926,
+          "deathYear": 2025,
+          "professions": [
+            "Geologe"
+          ]
+        },
+        {
+          "gnd": "172079527",
+          "preferredName": "Frankl, Hai",
+          "birthYear": 1920,
+          "deathYear": 2016,
+          "bio": "In Charlottenbrunn (Schlesien) geboren; Sänger und Sammler jiddischer Lieder"
+        },
+        {
+          "gnd": "1272447383",
+          "preferredName": "Fränkl, Carl",
+          "birthYear": 1888,
+          "deathYear": null,
+          "bio": "1888 Promotion zum Dr. med. an der hohen medizinischen Fakultät der königl. Bayer. Julius-Maximilians-Universität zu Würzburg",
+          "professions": [
+            "Arzt"
+          ]
+        }
+      ]
+    },
+    "place": {
+      "status": "skipped"
+    }
+  },
+  {
+    "letter": "letter7455",
+    "stage1": {
+      "place": {
+        "value": "Milan | IT",
+        "cert": "high"
+      },
+      "date": {
+        "value": "1848-06-21",
+        "cert": "high"
+      },
+      "writer": {
+        "forename": {
+          "value": "Francesco",
+          "cert": "high"
+        },
+        "lastname": {
+          "value": "Rossi",
+          "cert": "high"
+        }
+      },
+      "language": {
+        "value": "it",
+        "cert": "high"
+      }
+    },
+    "writer": {
+      "status": "unique",
+      "gnd": "119214490"
+    },
+    "place": {
+      "status": "ambiguous",
+      "query": "Milan",
+      "candidates": [
+        {
+          "geonamesId": "3173435",
+          "name": "Milan",
+          "countryCode": "IT",
+          "featureClass": "P",
+          "featureCode": "PPLA",
+          "population": 1371498,
+          "adminName1": "Lombardy"
+        },
+        {
+          "geonamesId": "6951411",
+          "name": "Milan",
+          "countryCode": "IT",
+          "featureClass": "P",
+          "featureCode": "PPL",
+          "population": 42,
+          "adminName1": "Umbria"
+        },
+        {
+          "geonamesId": "8971347",
+          "name": "Milan",
+          "countryCode": "IT",
+          "featureClass": "P",
+          "featureCode": "PPL",
+          "population": 27,
+          "adminName1": "Veneto"
+        },
+        {
+          "geonamesId": "8978959",
+          "name": "Milan",
+          "countryCode": "IT",
+          "featureClass": "P",
+          "featureCode": "PPL",
+          "population": 16,
+          "adminName1": "Veneto"
+        }
+      ]
+    }
+  },
+  {
+    "letter": "letter2967",
+    "stage1": {
+      "place": {
+        "value": "St. Petersburg | RU",
+        "cert": "high"
+      },
+      "date": {
+        "value": "1823-12-30",
+        "cert": "high"
+      },
+      "writer": {
+        "forename": {
+          "value": "Christian Martin",
+          "cert": "med"
+        },
+        "lastname": {
+          "value": "Frähn",
+          "cert": "high"
+        },
+        "profession": {
+          "value": "Orientalist",
+          "cert": "med"
+        }
+      },
+      "language": {
+        "value": "de",
+        "cert": "high"
+      }
+    },
+    "writer": {
+      "status": "unique",
+      "gnd": "104228458"
+    },
+    "place": {
+      "status": "unique",
+      "geonames": "498817"
+    }
+  },
+  {
+    "letter": "letter4107",
+    "stage1": {
+      "place": {
+        "value": "Caen | FR",
+        "cert": "high"
+      },
+      "date": {
+        "value": "1829-12-25",
+        "cert": "high"
+      },
+      "writer": {
+        "forename": {
+          "value": "unk",
+          "cert": "high"
+        },
+        "lastname": {
+          "value": "unk",
+          "cert": "high"
+        }
+      },
+      "language": {
+        "value": "fr",
+        "cert": "high"
+      }
+    },
+    "writer": {
+      "status": "skipped"
+    },
+    "place": {
+      "status": "unique",
+      "geonames": "3029241"
+    }
+  },
+  {
+    "letter": "letter1520",
+    "stage1": {
+      "place": {
+        "value": "London | GB",
+        "cert": "high"
+      },
+      "date": {
+        "value": "unk",
+        "cert": "high"
+      },
+      "writer": {
+        "forename": {
+          "value": "John",
+          "cert": "high"
+        },
+        "lastname": {
+          "value": "Hobhouse",
+          "cert": "high"
+        }
+      },
+      "language": {
+        "value": "en",
+        "cert": "high"
+      }
+    },
+    "writer": {
+      "status": "unique",
+      "gnd": "117525553"
+    },
+    "place": {
+      "status": "unique",
+      "geonames": "2643743"
+    }
+  },
+  {
+    "letter": "letter2276",
+    "stage1": {
+      "place": {
+        "value": "Venice | IT",
+        "cert": "high"
+      },
+      "date": {
+        "value": "1819-04-21",
+        "cert": "high"
+      },
+      "writer": {
+        "forename": {
+          "value": "Iacopo",
+          "cert": "high"
+        },
+        "lastname": {
+          "value": "Morelli",
+          "cert": "high"
+        },
+        "profession": {
+          "value": "Bibliothekar",
+          "cert": "high"
+        }
+      },
+      "language": {
+        "value": "it",
+        "cert": "high"
+      }
+    },
+    "writer": {
+      "status": "unique",
+      "gnd": "117143464"
+    },
+    "place": {
+      "status": "unique",
+      "geonames": "3164603"
+    }
+  }
+]

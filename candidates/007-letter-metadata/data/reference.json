@@ -1,0 +1,202 @@
+[
+  {
+    "letter": "letter1067",
+    "language": "fr",
+    "writer": {
+      "name": "Italinski, Andrej",
+      "gnd": null,
+      "in_letter": false
+    },
+    "date": {
+      "value": "1810-02-22",
+      "in_letter": true
+    },
+    "place": {
+      "name": "Triest",
+      "geonames": "3165185",
+      "in_letter": true
+    },
+    "dateline": "Trieste, le 10/22 Février 1810",
+    "signature": ""
+  },
+  {
+    "letter": "letter1385",
+    "language": "de",
+    "writer": {
+      "name": "Frank, Othmar",
+      "gnd": "116704128",
+      "in_letter": true
+    },
+    "date": {
+      "value": "1812-12-07",
+      "in_letter": true
+    },
+    "place": {
+      "name": "München",
+      "geonames": "2867714",
+      "in_letter": true
+    },
+    "dateline": "München den 7 ten Dezember 1812",
+    "signature": "Dr. Frank"
+  },
+  {
+    "letter": "letter1876",
+    "language": "de",
+    "writer": {
+      "name": "Wahl, Samuel Friedrich",
+      "gnd": "117114308",
+      "in_letter": true
+    },
+    "date": {
+      "value": "1817-03-24",
+      "in_letter": true
+    },
+    "place": {
+      "name": "Halle",
+      "geonames": "2911522",
+      "in_letter": true
+    },
+    "dateline": "Halle 24. März 1817",
+    "signature": "S. Fr. Günther Wahl ."
+  },
+  {
+    "letter": "letter5093",
+    "language": "en",
+    "writer": {
+      "name": "Mitchell, James",
+      "gnd": null,
+      "in_letter": true
+    },
+    "date": {
+      "value": "1834-10-28",
+      "in_letter": true
+    },
+    "place": {
+      "name": "London",
+      "geonames": "2643743",
+      "in_letter": true
+    },
+    "dateline": "Royal Asiatic House, 14 Grafton Street, Bond Street London 28 th Oct[ober] 1834",
+    "signature": "James Mitchell"
+  },
+  {
+    "letter": "letter6357",
+    "language": "de",
+    "writer": {
+      "name": "Frankl von Hochwart,Ludwig August",
+      "gnd": "116718234",
+      "in_letter": true
+    },
+    "date": {
+      "value": "1841",
+      "in_letter": false
+    },
+    "place": {
+      "name": null,
+      "geonames": null,
+      "in_letter": false
+    },
+    "dateline": "Donnerstag",
+    "signature": "Frankl"
+  },
+  {
+    "letter": "letter7455",
+    "language": "it",
+    "writer": {
+      "name": "Rossi, Francesco",
+      "gnd": "119214490",
+      "in_letter": true
+    },
+    "date": {
+      "value": "1848-06-21",
+      "in_letter": true
+    },
+    "place": {
+      "name": "Mailand",
+      "geonames": "3173435",
+      "in_letter": true
+    },
+    "dateline": "Milano, 21 Giungno, 1848",
+    "signature": "Francesco Rossi"
+  },
+  {
+    "letter": "letter2967",
+    "language": "de",
+    "writer": {
+      "name": "Frähn, Christian Martin Joachim",
+      "gnd": "104228458",
+      "in_letter": true
+    },
+    "date": {
+      "value": "1824-01-11",
+      "in_letter": true
+    },
+    "place": {
+      "name": "St. Petersburg",
+      "geonames": "498817",
+      "in_letter": true
+    },
+    "dateline": "St. Petersburg d[en] 30. Dec[ember] 1823",
+    "signature": "Frähn"
+  },
+  {
+    "letter": "letter4107",
+    "language": "fr",
+    "writer": {
+      "name": "Trebutien de la Place, Francois-Guillaume-Stanislas",
+      "gnd": "120365553",
+      "in_letter": false
+    },
+    "date": {
+      "value": "1829-12-25",
+      "in_letter": true
+    },
+    "place": {
+      "name": "Caen",
+      "geonames": "3029241",
+      "in_letter": true
+    },
+    "dateline": "Caen, le 25 Décembre 1829",
+    "signature": "T[rebutien]"
+  },
+  {
+    "letter": "letter1520",
+    "language": "en",
+    "writer": {
+      "name": "Hobhouse, John Sir",
+      "gnd": "117525553",
+      "in_letter": true
+    },
+    "date": {
+      "value": "1814-06-07",
+      "in_letter": false
+    },
+    "place": {
+      "name": "London",
+      "geonames": "2643743",
+      "in_letter": true
+    },
+    "dateline": "June 7 London St James’s Place Nro 7",
+    "signature": "John Hobhouse ."
+  },
+  {
+    "letter": "letter2276",
+    "language": "it",
+    "writer": {
+      "name": "Morelli, Jacopo",
+      "gnd": "117143464",
+      "in_letter": true
+    },
+    "date": {
+      "value": "1819-04-21",
+      "in_letter": true
+    },
+    "place": {
+      "name": "Venedig",
+      "geonames": "3164603",
+      "in_letter": true
+    },
+    "dateline": "Venezia 21 April 1819",
+    "signature": "Iacopo Morelli"
+  }
+]
