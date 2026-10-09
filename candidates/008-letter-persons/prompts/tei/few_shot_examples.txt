@@ -1,0 +1,32 @@
+# Output Format
+
+The div element as you received it, with the markup added. No code fence, no XML declaration, no commentary or explanation,
+no text before or after it.
+
+# Example
+
+## Input Letter
+
+<div type="letter" subtype="original">
+    <p>Ich habe dem Herrn Baron <persName>v[on]</persName> <persName>Ottenfels</persName> Ihren
+        Brief gezeigt; der Direktor sandte ihn sogleich weiter.<note type="comment" place="bottom">
+            <p>Gemeint ist Franz von <persName>Ottenfels-Gschwind</persName> (1778–1851).</p>
+        </note> Von Wielands <persName>Merkur</persName> war keine Rede.</p>
+    <closer>
+        <salute>Ihr ergebenster</salute>
+        <signed>J. G. Weber.</signed>
+    </closer>
+</div>
+
+## Output
+
+<div type="letter" subtype="original">
+    <p><rs>Ich</rs> habe dem Herrn <persName><roleName>Baron</roleName> <nameLink>v[on]</nameLink> <surname>Ottenfels</surname></persName> <rs>Ihren</rs>
+        Brief gezeigt; der <rs>Direktor</rs> sandte <rs>ihn</rs> sogleich weiter.<note type="comment" place="bottom">
+            <p>Gemeint ist Franz von <persName>Ottenfels-Gschwind</persName> (1778–1851).</p>
+        </note> Von <persName><surname>Wieland</surname></persName>s Merkur war keine Rede.</p>
+    <closer>
+        <salute><rs>Ihr</rs> ergebenster</salute>
+        <signed><persName><forename>J.</forename> <forename>G.</forename> <surname>Weber</surname></persName>.</signed>
+    </closer>
+</div>

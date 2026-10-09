@@ -1,0 +1,142 @@
+{
+  "letter1222": {
+    "letter_id": "L_1222",
+    "language": "de",
+    "writer": {
+      "name": "Humboldt, Wilhelm von",
+      "id": "353"
+    },
+    "recipient": {
+      "name": "Hammer-Purgstall, Joseph von",
+      "id": "2000"
+    },
+    "date": "1811-06-10",
+    "place": "[Wien]"
+  },
+  "letter4332": {
+    "letter_id": "L_4332",
+    "language": "de",
+    "writer": {
+      "name": "Hammer-Purgstall, Joseph von",
+      "id": "2000"
+    },
+    "recipient": {
+      "name": "Cotta von Cottendorf, Johann Friedrich Freiherr von (senior)",
+      "id": "168"
+    },
+    "date": "1831-01-14",
+    "place": "Wien"
+  },
+  "letter6250": {
+    "letter_id": "L_6250",
+    "language": "de",
+    "writer": {
+      "name": "Hammer-Purgstall, Joseph von",
+      "id": "2000"
+    },
+    "recipient": {
+      "name": "Dietrichstein-Proskau-Leslie, Moriz I. Graf",
+      "id": "194"
+    },
+    "date": "1841-04-20",
+    "place": "[Wien]"
+  },
+  "letter7368": {
+    "letter_id": "L_7368",
+    "language": "de",
+    "writer": {
+      "name": "Bland, Anna Iwanowna",
+      "id": "1154"
+    },
+    "recipient": {
+      "name": "Hammer-Purgstall, Joseph von",
+      "id": "2000"
+    },
+    "date": "1848-02-18",
+    "place": "London"
+  },
+  "letter190": {
+    "letter_id": "L_190",
+    "language": "en",
+    "writer": {
+      "name": "Smith, Sidney William Sir",
+      "id": "703"
+    },
+    "recipient": {
+      "name": "Hammer-Purgstall, Joseph von",
+      "id": "2000"
+    },
+    "date": "1801-07-30",
+    "place": "HMS Tiger vor Alexandria"
+  },
+  "letter3661": {
+    "letter_id": "L_3661",
+    "language": "en",
+    "writer": {
+      "name": "Marsden, William",
+      "id": "495"
+    },
+    "recipient": {
+      "name": "Hammer-Purgstall, Joseph von",
+      "id": "2000"
+    },
+    "date": "1828-03-12",
+    "place": "London"
+  },
+  "letter6041": {
+    "letter_id": "L_6041",
+    "language": "en",
+    "writer": {
+      "name": "Fox-Strangways, William 4th Earl of Ilchester",
+      "id": "727"
+    },
+    "recipient": {
+      "name": "Hammer-Purgstall, Joseph von",
+      "id": "2000"
+    },
+    "date": "1839-10-08",
+    "place": "[London] F.O."
+  },
+  "letter2276": {
+    "letter_id": "L_2276",
+    "language": "it",
+    "writer": {
+      "name": "Morelli, Jacopo",
+      "id": "532"
+    },
+    "recipient": {
+      "name": "Hammer-Purgstall, Joseph von",
+      "id": "2000"
+    },
+    "date": "1819-04-21",
+    "place": "Venedig"
+  },
+  "letter7592": {
+    "letter_id": "L_7592",
+    "language": "it",
+    "writer": {
+      "name": "Labus, Giovanni",
+      "id": "427"
+    },
+    "recipient": {
+      "name": "Hammer-Purgstall, Joseph von",
+      "id": "2000"
+    },
+    "date": "1849-06-04",
+    "place": "Mailand"
+  },
+  "letter7941": {
+    "letter_id": "L_7941",
+    "language": "it",
+    "writer": {
+      "name": "Rossi, Francesco",
+      "id": "650"
+    },
+    "recipient": {
+      "name": "Hammer-Purgstall, Joseph von",
+      "id": "2000"
+    },
+    "date": "1852-11-29",
+    "place": "Mailand"
+  }
+}

@@ -1,0 +1,35 @@
+# Task
+
+You are annotating letters from the correspondence of Joseph von Hammer-Purgstall (1774–1856) according to TEI guidelines. Your task is to mark every mention of a real, identifiable person.
+
+The letter is given to you as a TEI fragment. You return the same fragment with the markup added. You only add markup and nothing else: the letter text, the existing elements, and the whitespace between them come back exactly as they went in.
+
+## Annotation Steps
+
+Work through the letter in this order:
+
+1. **Check existing markup**
+   The letter is already partially annotated — sometimes incompletely, and/or incorrectly.
+   Check every existing markup element: If the markup does not denote a real person, but a title of a work, periodical etc., remove such an element by
+   unwrapping it.
+
+2. **Correct boundaries**
+   Often only the surname is marked while a title, forename, or name particle sits outside the element.
+   Include the omitted parts. A grammatical suffix attached to a name ("Hammers", "Herderschen") must
+   likewise stay excluded — see the encoding rules.
+
+3. **Merge split markup**
+   A name split across several persName elements becomes a single persName.
+
+4. **Add missing mentions**
+   Mark names that carry no markup at all.
+
+5. **Recognize referential mentions**
+   Mark pronouns and descriptive noun phrases that refer to a specific person as rs.
+
+For every persName, break it down into its components (roleName, forename, nameLink, surname, genName, addName).
+
+Do not assign identifiers.
+Whether a person appears in the person index, and which ID they carry, is decided in a later step — your task ends at the elements and their internal structure. The only attributes you may write is type="maiden" on a surname, type="group" on a rs that denotes multiple persons.
+
+Output nothing but the TEI fragment.

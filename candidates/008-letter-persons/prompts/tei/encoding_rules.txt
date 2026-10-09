@@ -1,0 +1,50 @@
+# Encoding Rules
+
+## The Fragment You Return
+
+- Return the div element complete, from `<div>` to `</div>`.
+- Add and remove markup — change nothing else. Do not re-indent, do not pretty-print, do not add or remove line breaks, spaces or tabs.
+- Every element you did not create stays exactly as it is, with all of its attributes. Do not move them, do not drop empty ones, do not merge or split them.
+- Markup may enclose other elements, but may not cross them.
+
+## persName — Scope
+
+- A persName encloses all name components that belong together: title, office, forename, name particle, surname.
+- Courtesy address terms stay outside the persName: "Herr", "Herrn", "Mister", "Misses" etc. are not name components.
+- For derived words, enclose only the name core; the suffix stays outside the tag, in the same word:
+  in "Hammers neueste Eigenheit" only "Hammer" is the name, so it reads `<persName><surname>Hammer</surname></persName>s neueste Eigenheit`.
+- Punctuation attached to a name stays outside the tag: "Joris," becomes `<persName><surname>Joris</surname></persName>,`.
+  A full stop that abbreviates belongs inside the name ("C.", "Prof.", "v."); a full stop that ends a sentence stays outside it.
+- An abbreviated name part like in "W. Jones" is still a name, in this case a forename.
+- Address nouns such as "Euer Hochwohlgeboren" ("Your Honor") are not a persName but an rs.
+  Exception: when they stand immediately before or after a name and function there as an attribute ("Hochwohlgeboren Hammer") and do not belong to the persName.
+
+## persName — Internal Structure
+
+- **roleName**: titles of nobility, address, and academic titles (Sir, Freiherr, Dr.), offices (Hofrat, Präsident, Direktor), and
+   occupational titles (Buchhändler, Arzt) — but only when they occur directly as part of the name, i.e. together with a name.
+- **forename**: given name. Multiple given names each get their own forename element, not one shared element.
+- **nameLink**: name particles such as "von", "v[on]", "de", "van".
+- **surname**: family name. A maiden name (e.g. "geb. Eichinger", "née Eichinger") is a surname with type="maiden".
+- **genName**: marks relative ages or generations of the person named, like "the Younger", "jun." or "II."
+- **addName** for nickname, alias like "the Great"
+- Even when only a single component is present, mark it: a standalone surname is a `<persName><surname>…</surname></persName>`.
+- Components are children of their persName and never overlap each other. Text inside the persName that belongs to no component simply stays as it is between the child elements.
+
+## rs — Referential Mentions
+
+- Capture pronouns and relative pronouns that refer to a specific person: ich, du, er, sie, ihn, ihm, mich, mir, Ihnen, wir, I, you, he, she, him, me, as well as possessives such as mein, dein, sein, ihr, Ihre, my, your, his, her, der/die/das, dessen/deren, von dem/von der, who/whose/of whom etc.
+- Also capture descriptive noun phrases or free-standing offices with no associated name that refer to a specific person:
+  "Direktor", "court councillor" etc.
+- Address formulas such as "Euer Hochwohlgeboren" are rs.
+- An rs covers only the pronoun or the noun phrase itself, excluding any surrounding apposition: in "er, der arme Laie" only "er" is marked.
+- An rs has no internal structure.
+- Formal address forms refer in these letters to the recipient; first person refers to the writer. Both are known from the letter metadata.
+
+## Not Annotated
+
+- General groups of people with shifting membership: "Gelehrten", "Männer Weimars", "ministers' wives" etc.
+- Generic figures used as comparisons, without a concrete referent: "a poor layman" used as a generic type.
+- Mythological beings: Muses, Gods, Graces.
+- Peoples and ethnonyms: the Greeks, the Turks.
+- Anything inside a note. The footnotes stand in the fragment where they belong and are given to you as context; they are not themselves subject to annotation. Return every note exactly as you received it.

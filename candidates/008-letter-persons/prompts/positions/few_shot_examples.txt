@@ -1,0 +1,58 @@
+# Output Format
+
+A single JSON object with the key "annotations". Positions are token indices; the end is inclusive.
+No other keys, no text outside the object, no markdown formatting.
+
+{"annotations": [
+  {"element": "persName", "tok_start": 4, "tok_end": 6,
+   "parts": [{"element": "roleName", "tok_start": 4, "tok_end": 4},
+             {"element": "nameLink", "tok_start": 5, "tok_end": 5},
+             {"element": "surname",  "tok_start": 6, "tok_end": 6}]},
+  {"element": "rs", "tok_start": 0, "tok_end": 0}
+]}
+
+A surname part takes an optional "type" key, used only for a maiden name:
+{"element": "surname", "tok_start": 12, "tok_end": 12, "type": "maiden"}
+Omit "type" entirely otherwise - do not add it with any other value.
+
+A part can be "name" instead of forename/surname, for a mononym that is neither:
+{"element": "name", "tok_start": 8, "tok_end": 8}
+
+An entry (persName or part) takes an optional "suffix" key: the trailing characters of its
+last token that are not part of the name. Omit it when the whole token is the name; set it
+on both the persName and the part when they share that last token.
+{"element": "surname", "tok_start": 17, "tok_end": 17, "suffix": "s"}
+Use it for a grammatical ending ("Wielands" -> "s"), for a sentence-ending full stop
+("Goethe." -> "."), or for both ("Wielands." -> "s."). A full stop that abbreviates stays in
+the name: "C.", "Prof.", "v.". Other trailing punctuation ("Joris,") is stripped
+automatically.
+
+
+# Example
+
+## Input Letter
+
+[0]Ich [1]habe [2]dem [3]Herrn [4]Baron [5]v[on] [6]Ottenfels [7]Ihren
+[8]Brief [9]gezeigt; [10]der [11]Direktor [12]sandte [13]ihn [14]sogleich
+[15]weiter. [16]Von [17]Wielands [18]Merkur [19]war [20]keine [21]Rede.
+[22]Ihr [23]ergebenster [24]J. [25]G. [26]Weber.
+
+## Output
+
+{"annotations": [
+  {"element": "rs", "tok_start": 0, "tok_end": 0},
+  {"element": "persName", "tok_start": 4, "tok_end": 6,
+   "parts": [{"element": "roleName", "tok_start": 4, "tok_end": 4},
+             {"element": "nameLink", "tok_start": 5, "tok_end": 5},
+             {"element": "surname",  "tok_start": 6, "tok_end": 6}]},
+  {"element": "rs", "tok_start": 7, "tok_end": 7},
+  {"element": "rs", "tok_start": 11, "tok_end": 11},
+  {"element": "rs", "tok_start": 13, "tok_end": 13},
+  {"element": "persName", "tok_start": 17, "tok_end": 17, "suffix": "s",
+   "parts": [{"element": "surname", "tok_start": 17, "tok_end": 17, "suffix": "s"}]},
+  {"element": "rs", "tok_start": 22, "tok_end": 22},
+  {"element": "persName", "tok_start": 24, "tok_end": 26, "suffix": ".",
+   "parts": [{"element": "forename", "tok_start": 24, "tok_end": 24},
+             {"element": "forename", "tok_start": 25, "tok_end": 25},
+             {"element": "surname",  "tok_start": 26, "tok_end": 26, "suffix": "."}]}
+]}

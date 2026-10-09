@@ -1,0 +1,51 @@
+# Encoding Rules
+
+## persName — Scope
+
+- A persName encloses all name components that belong together: title, office, forename, name particle, surname.
+- Courtesy address terms stay outside the persName: "Herr", "Herrn", "Mister", "Misses" etc. are not name components.
+- For derived words, mark only the name core; the suffix stays outside.
+  In "Hammers neueste Eigenheit" only "Hammer" is the name.
+  If the suffix sits in the same token as the name, mark the whole token as usual and add "suffix" to the entry whose last token carries it: the trailing characters that are not part of the name, e.g. "suffix": "s" for "Hammers".
+  Set it on both the persName and the part when they share that last token. Omit "suffix" when the whole token is the name.
+- Tokens are split on whitespace only, so punctuation attached to a name is part of its token: "Joris," is one token. A comma, semicolon, colon, bracket or quotation mark at the end of a token will be removed automatically in a later step. Full stops can mark abbreviations or the end of a sentence. When it marks a sentence like in the token "Goethe.", add "suffix": to the entry whose last token carries it: "suffix": "."
+  When a grammatical ending and a full stop meet, give both together: "Hammers." takes "suffix": "s.".
+- An abbreviated name part like in "W. Jones" is still a name, in this case a forename.
+- Address nouns such as "Euer Hochwohlgeboren" ("Your Honor") are not a persName but an rs.
+  Exception: when they stand immediately before or after a name and function there as an attribute ("Hochwohlgeboren Hammer") and do not belong to the persName.
+- Square brackets that enclose a person's name should be placed outside the tag: [Böttiger] → [<persName>Böttiger</persName>]
+
+## persName — Internal Structure
+
+- **roleName**: titles of nobility, address, and academic titles (Sir, Freiherr, Dr.), offices (Hofrat, Präsident, Direktor), and
+   occupational titles (Buchhändler, Arzt) — but only when they occur directly as part of the name, i.e. together with a name.
+- **forename**: given name. Multiple given names each get their own forename element, not one shared element.
+- **nameLink**: name particles such as "von", "v[on]", "de", "van".
+- **surname**: family name. A maiden name (e.g. "geb. Eichinger", "née Eichinger") is a surname with type="maiden".
+- **genName**: marks relative ages or generations of the person named, like "the Younger", "jun." or "II."
+- **addName** for nickname, alias like "the Great"
+- **name**: for a personal name that is neither forename nor surname (a mononym) or does not follow western name components rules, e.g. "Sokrates" or "Abd Al-Latif".
+- Even when only a single component is present, mark it: a standalone surname is a surname inside the persName.
+- Components always lie within the boundaries of their persName and never overlap each other.
+- Square brackets that enclose a component are placed outside the component if there are several name components or if there is only one name component then they are outside the parent persName tag.
+
+## rs — Referential Mentions
+
+- Capture pronouns, relative pronouns, that refer to a specific person:  ich, du, er, sie, ihr, ihn, ihm, Ihnen, meine, deine, seine, ihre, von dem/der, die/der,  dessen/deren, etc.
+- Also capture descriptive noun phrases, general-purpose names or free-standing offices with no associated name that refer to a specific person:
+  "Tante", "Direktor", "court councillor" etc.
+- A named group with specific, identifiable members ("Familie Wieland", "Brüder Humboldt", "Familie Harrach") is one rs span, not a persName.
+- A possessive pronoun plus noun ("Ihre Gattin", "mein teurer Freund") is two separate rs spans, not one: tag the pronoun and the noun phrase each on their own. Do not tag attributes: <rs ref="2000">Ihre</rs> <rs ref="123">Gattin</rs> bzw. <rs ref="91">mein</rs> teurer <rs ref="2000">Freund</rs>
+- Address formulas such as "Hochwohlgeboren" in the sequence "Euer Hochwohlgeboren" are rs.
+- An rs covers only the pronoun or the noun phrase itself, excluding any surrounding apposition or predicate: in "er, der arme Laie" only "er" is marked; in "die Gesandte ist ein herzallerliebstes Weib" or "er ist ein sanfter Gelehrter" only "Gesandte" or "er" is marked.
+- Formal address forms refer in these letters to the recipient; first person refers to the writer. Both are known from the letter metadata.
+- Square brackets that enclose a pronoun, relative pronouns or general no should be placed outside the tag: [Böttiger] → [<persName>Böttiger</persName>]
+
+## Not Annotated
+
+- General groups of people with shifting membership: "Gelehrten", "Männer Weimars", "ministers' wives" etc.
+- Generic figures used as comparisons, without a concrete referent: "a poor layman" used as a generic type.
+- Mythological beings: Muses, Gods, Graces.
+- Peoples and ethnonyms: the Greeks, the Turks.
+- Names inside a literally quoted or embedded literary text (a poem, a song line, a quotation from another work), and names that refer to a work, product, or institution rather than a person - like "Kafka" in "ich lese den Kafka" (reading the book).
+- Anything inside a footnote. Footnotes are supplied to you as context so you can recognize and place persons correctly; they are not themselves subject to annotation and carry no token indices.
