@@ -42,7 +42,8 @@ from the notebooks' default model.
 
 - **Session:** JupyterHub, CPU session, or any Python environment that can reach the API. No GPU
   is needed: the model runs on the cluster and the notebooks only send requests to it.
-- **Resources:** minimal RAM and disk. Notebook 1 sends ten requests, notebook 2 six.
+- **Resources:** minimal RAM and disk. Notebook 1 sends eleven requests (one letter on its own,
+  then all ten), notebook 2 seven (one choice on its own, then all six).
 - **Software:** Python 3.9+. The first notebook cell installs `openai`, `python-dotenv`,
   `lxml` and `pandas` from `requirements.txt`.
 - **Access:** a project token from [console.dhinfra.uni-graz.at](https://console.dhinfra.uni-graz.at).
